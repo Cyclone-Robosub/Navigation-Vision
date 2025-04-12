@@ -43,13 +43,14 @@ You will also need to install the following Python packages:
  ```bash
   pip install torch opencv-python numpy Pillow timm ultralytics
   pip install timm
-
+```
 1. **Clone the Repository**
 
-   ```bash
+```bash
    git clone https://github.com/Cyclone-Robosub/Navigation-Vision.git
    cd Navigation-Vision
-
+```
 ## To run it then you do
 ```bash
 python my_coin_script.py --model "my_coin.pt" --source "usb0" --resolution "640x480" --record
+```
