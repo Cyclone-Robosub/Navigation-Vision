@@ -55,16 +55,16 @@ python my_coin_script.py --model "my_coin.pt" --source "usb0" --resolution "640x
 - `my_coin_script.py`
 Main script for object detection and 3D localization. It overlays bounding boxes, distance, bearing, and estimated 3D coordinates on the camera feed and can record the output video when the --record flag is used.
 
--`distance_estimator.py`
+- `distance_estimator.py`
 Contains functions for distance and bearing estimation using the pinhole camera model.
 
--`midas_depth_estimator.py`
+- `midas_depth_estimator.py`
 Loads and runs the MiDaS model to generate a depth map from an image frame.
 
--`video_recorder.py`
+- `video_recorder.py`
 A standalone script to record raw video from your camera.
 
--`my_coin.pt`
+- `my_coin.pt`
 Your trained YOLO model file.
 
 Other files: Readme.txt, sample images, videos, etc.
